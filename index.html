@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css" >
+  <script type="module" src="app.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  
+</head>
+<body>
+
+  <div class="ccc-feature-menu" id="cc-feature-menu">
+    <ul class="ccc-feature-list">
+      <li>
+        <a href="#">
+          <img src="/images/icon-todo.svg" class="c-list-icon">
+          Todo List
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="/images/icon-calendar.svg" class="c-list-icon">
+          Calendar
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="/images/icon-reminders.svg" class="c-list-icon">
+          Reminders
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="/images/icon-planning.svg" class="c-list-icon">
+          Planning
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="ccc-company-menu" id="company-menu">
+    <ul class="ccc-company-list">
+      <li>
+        <a href="#">
+          History
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          Our Team
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          Blog
+        </a>
+      </li>
+    </ul>
+  </div>
+
+
+  <div class="menu" id="menu">
+    <div class="close-icon">
+      <img src="/images/icon-close-menu.svg" alt="#" class="close" id="close">
+    </div>
+    <div class="nav-desktop">
+      <nav class="navbar1">
+        <ul class="menu-list">
+          <li class="features" id="features">Features <img src="/images/icon-arrow-down.svg" alt="#" class="arrow" id="arrow"></li>
+            <ul class="features-list" id="flist">
+              <img src="/images/icon-todo.svg" alt="#" class="feature-icon"><li class="todo">Todo List</li>
+              <img src="/images/icon-calendar.svg" alt="#" class="feature-icon"><li class="calendar">Calendar</li>
+              <img src="/images/icon-reminders.svg" alt="#" class="feature-icon"> <li class="reminders">Reminders</li>
+              <img src="/images/icon-planning.svg" alt="#" class="feature-icon"><li class="planning">Planning</li>
+            </ul>
+          <li class="company" id="company">Company <img src="/images/icon-arrow-down.svg" alt="#" class="arrow" id="arrow"></li>
+            <ul class="company-list" id="clist">
+              <li class="history">History</li>
+              <li class="our-team">Our Team</li>
+              <li class="blog">Blog</li>
+            </ul>
+          <li class="careers">Careers</li>
+          <li class="about">About</li>
+        </ul>
+      </nav>
+      <div class="menu-buttons">
+        <button class="login">Login</button>
+        <button class="register">Register</button>
+      </div>
+    </div>
+  </div>
+  <header class="header">
+    <nav class="navbar">
+      <img src="/images/logo.svg" alt="#" class="logo">
+      <div class="desktop-menu">
+        <ul class="desktop-list">
+          <li id="desktop-ft">Features <img src="/images/icon-arrow-down.svg" alt="#" class="desktop-arrow"> </li>
+          <li id="desktop-cp">Company<img src="/images/icon-arrow-down.svg" alt="#" class="desktop-arrow"></li>
+          <li>Careers</li>
+          <li>About</li>
+        </ul>
+        <div class="desktop-btns">
+          <button class="desktop-login">Login</button>
+          <button class="desktop-register">Register</button>
+        </div>
+      </div>
+      <img src="/images/icon-menu.svg" alt="#" class="menu-button" id="open-menu">
+    </nav>
+  </header>
+  <div class="desktop-main">
+    <section class="hero-section">
+      <img src="/images/image-hero-mobile.png" alt="#" class="hero-img">
+    </section>
+    <div class="desktop-text">
+      <section class="text-section">
+        <h1 class="heading">Make remote work</h1>
+        <p class="paragraph-text">Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, and watch productivity soar.
+        </p>
+      </section>
+      <div class="learn-more">
+          <button class="learn-more-button">Learn more</button>
+      </div>
+        <footer class="sponsor-footer">
+          <ul class="image-list">
+            <li class="image-list-item"><img src="/images/client-databiz.svg" alt="#" class="sponsor"></li>
+            <li class="image-list-item"><img src="/images/client-audiophile.svg" alt="#" class="sponsor">
+            </li>
+            <li class="image-list-item"><img src="/images/client-meet.svg" alt="#" class="sponsor"></li>
+            <li class="image-list-item"><img src="/images/client-maker.svg" alt="#" class="sponsor"></li>
+          </ul>
+        </footer>
+    </div>
+  </div>
+  <section class="main-section">
+  
+    <div class="text">
+      <h1 class="heading">
+        Make <br>remote work
+      </h1>
+      <p class="paragraph">
+        Get your team in sync, no matter your location.<br>
+        Streamline processes, create team rituals, and <br>
+        watch productivity soar.
+      </p>
+      <button type="button" class="learn-more-button">
+        Learn more
+      </button>
+      <div class="sponsors">
+        <img src="/images/client-databiz.svg" class="sponsor-img">
+        <img src="/images/client-audiophile.svg" class="sponsor-img">
+        <img src="/images/client-meet.svg" class="sponsor-img">
+        <img src="/images/client-maker.svg" class="sponsor-img">
+      </div>
+    </div>
+    <div class="hero">
+      <img src="/images/image-hero-desktop.png" class="hero-img">
+    </div>
+  </section>
+  
+
+
+
+</body>
+</html>
